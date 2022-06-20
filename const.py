@@ -1,0 +1,8 @@
+EXPORTER_SUFFIX = 'Exporter'
+DEFAULT_DATABASE_EXPORTER = 'JSON'
+DEFAULT_DATABASE_FILE_NAME = 'database'
+
+
+class AccessType:
+    CLI = 'CLI'
+    API = 'API'
