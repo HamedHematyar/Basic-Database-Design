@@ -212,7 +212,7 @@ class DatabaseHandler:
             path(str): full path containing the file name and format for database file
             force(bool): to force exporter to create a new file if there is already and existing entry
         """
-        path = pathlib.Path('/Users/admin/PycharmProjects/AnimalLogic/export/export_test.xml')
+        path = pathlib.Path(path)
 
         exporter_class = getattr(exporters, f'{path.suffix.strip(".").upper()}{const.EXPORTER_SUFFIX}', None)
         if not exporter_class:
