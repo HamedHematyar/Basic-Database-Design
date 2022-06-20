@@ -8,5 +8,15 @@
         "name": "Chan",
         "phone": "(+1)778-636-4153",
         "address": "5235 Maple Ave"
+    },
+    {
+        "name": "chan",
+        "phone": "(+1)554-636-6870",
+        "address": "857 Patterson Ave"
+    },
+    {
+        "name": "martin",
+        "phone": "(+1)778-686-6970",
+        "address": "2150 West Ave"
     }
 ]
